@@ -54,9 +54,18 @@ h6 {
 
 :root {
     --bg-color: hsl(47, 88%, 63%);
-    --card-background: hsl(0, 0%, 100%);
+    --card-background: hsl(0, 0%, 95%);
     --font-color: hsl(0, 0%, 7%);
     --font-color-muted: hsl(0, 0%, 35%);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --bg-color: hsl(47, 88%, 37%);
+        --card-background: hsl(0, 0%, 5%);
+        --font-color: hsl(0, 0%, 93%);
+        --font-color-muted: hsl(0, 0%, 65%);
+    }
 }
 
 body {
@@ -64,7 +73,7 @@ body {
     flex-direction: column;
     font-family: 'Figtree', sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     /* font-size: 0.9rem; */
 }
@@ -88,6 +97,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 5px 5px;
 }
 
 .blog-card > * {
@@ -96,6 +106,9 @@ body {
 
 .blog-card > img {
     border-radius: 15px;
+    box-shadow: 2px 2px;
+    /* border-right: 1px solid var(--font-color);
+    border-bottom: 1px solid var(--font-color); */
 }
 
 .text-area {
@@ -108,6 +121,10 @@ body {
 h1 {
     font-weight: 800;
     font-size: 1.5rem;
+}
+
+h1:hover {
+    color: var(--bg-color);
 }
 
 .category-type {
@@ -135,7 +152,6 @@ h1 {
 
 .author > b {
     font-weight: 800;
-    font-size: 1.1rem;
 }
 
 /* attribution  */
@@ -144,6 +160,8 @@ h1 {
     font-size: 11px;
     text-align: center;
     height: 3vh;
+    background-color: var(--bg-color);
+    /* color: var(--font-color); */
 }
 .attribution a {
     color: hsl(228, 45%, 44%);

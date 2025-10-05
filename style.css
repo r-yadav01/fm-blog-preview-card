@@ -75,12 +75,10 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    /* font-size: 0.9rem; */
 }
 
 .page {
     height: 97vh;
-    /* max-width: 375px; */
     padding: 2rem;
     display: flex;
     background-color: var(--bg-color);
@@ -97,7 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 5px;
+    box-shadow: 4px 8px;
 }
 
 .blog-card > * {
@@ -106,9 +104,7 @@ body {
 
 .blog-card > img {
     border-radius: 15px;
-    box-shadow: 2px 2px;
-    /* border-right: 1px solid var(--font-color);
-    border-bottom: 1px solid var(--font-color); */
+    box-shadow: 1px 2px;
 }
 
 .text-area {
@@ -133,6 +129,7 @@ h1:hover {
     padding: 0.3rem 1rem;
     border-radius: 5px;
     align-self: first baseline;
+    box-shadow: 1px 2px;
 }
 
 .text-area > .preview-text {
@@ -161,10 +158,10 @@ h1:hover {
     text-align: center;
     height: 3vh;
     background-color: var(--bg-color);
-    /* color: var(--font-color); */
+    color: hsl(0, 0%, 20%);
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(0, 0%, 5%);
     font-weight: bold;
 }
 .attribution a:hover {

@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [on github](https://your-solution-url.com)
--   Live Site URL: [via github pages](https://your-live-site-url.com)
+-   Solution URL: [on github](https://github.com/r-yadav01/fm-blog-preview-card)
+-   Live Site URL: [via github pages](https://r-yadav01.github.io/fm-blog-preview-card/)
 
 ## My process
 
